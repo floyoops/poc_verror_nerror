@@ -1,0 +1,23 @@
+{
+  "name": "poc_pile_errors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "prod": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netflix/nerror": "^1.1.3",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/verror": "^1.10.4",
+    "typescript": "^3.9.7"
+  }
+}
